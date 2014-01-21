@@ -4,7 +4,7 @@ Task::Kensho::Scalability - Scalability
 
 # VERSION
 
-version 0.34001
+version 0.34002
 
 # SYNOPSIS
 

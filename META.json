@@ -1,5 +1,5 @@
 {
-   "abstract" : "A Glimpse at an Enlightened Perl: {{ $config_data->{$module}{description} }}",
+   "abstract" : "A Glimpse at an Enlightened Perl: Scalability",
    "author" : [
       "Chris Prather <chris@prather.org>"
    ],
@@ -38,12 +38,11 @@
       "configure" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "6.30",
-            "Module::Build::Tiny" : "0.033"
+            "Module::Build::Tiny" : "0.034"
          }
       },
       "develop" : {
          "requires" : {
-            "CHI" : "0",
             "Dist::Zilla" : "5.012",
             "Dist::Zilla::Plugin::GitHub::Update" : "0",
             "Dist::Zilla::Plugin::GithubMeta" : "0",
@@ -95,7 +94,7 @@
          "web" : "https://github.com/EnlightenedPerlOrganisation/task-kensho"
       }
    },
-   "version" : "0.34003",
+   "version" : "0.34004",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.019007"
@@ -385,7 +384,7 @@
                   "prereqs" : {
                      "CHI" : "0"
                   },
-                  "require_develop" : 1,
+                  "require_develop" : 0,
                   "type" : "requires"
                },
                "inc::OptionalFeatureForSubTask" : {

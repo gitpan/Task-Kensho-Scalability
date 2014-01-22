@@ -4,8 +4,8 @@ package Task::Kensho::Scalability;
 BEGIN {
   $Task::Kensho::Scalability::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34002-TRIAL-22-g2021115
-$Task::Kensho::Scalability::VERSION = '0.34003'; # TRIAL
+# git description: v0.34003-TRIAL-16-g855fa9e
+$Task::Kensho::Scalability::VERSION = '0.34004'; # TRIAL
 # ABSTRACT: A Glimpse at an Enlightened Perl: Scalability
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Scalability - A Glimpse at an Enlightened Perl: Scalability
 
 =head1 VERSION
 
-version 0.34003
+version 0.34004
 
 =head1 SYNOPSIS
 

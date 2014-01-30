@@ -4,7 +4,7 @@ Task::Kensho::Scalability - A Glimpse at an Enlightened Perl: Scalability
 
 # VERSION
 
-version 0.34004
+version 0.35
 
 # SYNOPSIS
 
@@ -53,6 +53,10 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 A unified cache interface, like DBI
 
+### [Redis](https://metacpan.org/pod/Redis)
+
+Perl binding for Redis database
+
 # INSTALLING
 
 Since version 0.34, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) has made use of the `optional_features` field
@@ -62,12 +66,6 @@ regarding which modules you wish to install.
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-# RELEASE SCHEDULE
-
-Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 

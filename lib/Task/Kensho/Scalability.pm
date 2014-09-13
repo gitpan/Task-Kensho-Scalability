@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::Scalability;
-# git description: v0.36-31-g26bf0fc
-$Task::Kensho::Scalability::VERSION = '0.37';
+# git description: v0.37-33-gd4b16f5
+$Task::Kensho::Scalability::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Scalability
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::Scalability - A Glimpse at an Enlightened Perl: Scalability
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
